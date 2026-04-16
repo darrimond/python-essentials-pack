@@ -1,0 +1,27 @@
+{
+  "name": "python-essentials-pack",
+  "displayName": "Python Essentials Pack",
+  "description": "Minimal Python development setup for VS Code.",
+  "version": "1.0.0",
+  "publisher": "darrison",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darrimond/python-essentials-pack"
+  },
+  "icon": "media/icon.png",
+  "categories": ["Extension Packs"],
+  "extensionPack": [
+    "ms-python.python",
+    "eamodio.gitlens",
+    "charliermarsh.ruff",
+    "ms-azuretools.vscode-docker",
+    "postman.postman-for-vscode",
+    "ms-toolsai.jupyter",
+    "ms-vscode-remote.remote-wsl",
+    "anthropic.claude-code"
+  ]
+}
