@@ -1,19 +1,54 @@
 {
   "name": "python-essentials-pack",
   "displayName": "Python Essentials Pack",
-  "description": "Minimal Python development setup for VS Code.",
-  "version": "1.0.0",
+  "description": "A lean, curated extension pack for Python in VS Code: language support, Ruff linting and formatting, Jupyter notebooks, GitLens, Docker, WSL, Postman, and Claude Code.",
+  "version": "1.0.1",
   "publisher": "darrison",
-  "engines": {
-    "vscode": "^1.98.0"
-  },
   "license": "MIT",
+  "icon": "media/icon.png",
+  "galleryBanner": {
+    "color": "#0B2545",
+    "theme": "dark"
+  },
+  "pricing": "Free",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": ["Extension Packs", "Programming Languages", "Linters", "Formatters", "Notebooks", "Data Science"],
+  "keywords": [
+    "python",
+    "python pack",
+    "python extension pack",
+    "python essentials",
+    "python setup",
+    "extension pack",
+    "ruff",
+    "linter",
+    "formatter",
+    "jupyter",
+    "notebook",
+    "data science",
+    "gitlens",
+    "git",
+    "docker",
+    "containers",
+    "wsl",
+    "remote development",
+    "postman",
+    "api testing",
+    "claude",
+    "claude code",
+    "ai",
+    "debugging"
+  ],
+  "homepage": "https://github.com/darrimond/python-essentials-pack#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/darrimond/python-essentials-pack"
   },
-  "icon": "media/icon.png",
-  "categories": ["Extension Packs"],
+  "bugs": {
+    "url": "https://github.com/darrimond/python-essentials-pack/issues"
+  },
   "extensionPack": [
     "ms-python.python",
     "eamodio.gitlens",
